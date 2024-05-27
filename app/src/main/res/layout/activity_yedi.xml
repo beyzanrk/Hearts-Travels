@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yediActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="382dp"
+        android:layout_height="467dp"
+        android:layout_marginBottom="268dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/yedi" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="380dp"
+        android:layout_height="0dp"
+        android:text="1636 Ha. büyüklüğündeki Yedigöller havzası, 1965 yılında   &quot;MİLLİ PARK&quot;  olarak korunmaya alınmıştır. Havza kayan kütlelerin vadilerin önlerini kapatması sonucu oluşan, yüzeysel ve yer altı akışlarıyla birbirine bağlı, kuzeyden güneye 1500 m. mesafede sıralanmış 7 gölden oluşmuştur. Milli Park içindeki Köyyeri mevkiinde  yeni Bizans dönemine ait bulunan kalıntılardan, eski dönemlerde bölgenin bir  yerleşim yeri olduğu anlaşılmaktadır. Ayrıca Yedigöller ve çevresinin jeolojik oluşumlar ve buna bağlı olarak jeoturizm açısından da önemli bir bölge olduğu uzmanlarca tespit edilmiştir. Milli Park içindeki göller; Büyükgöl, Seringöl, Deringöl, Nazlıgöl, Küçükgöl, İncegöl ve Sazlıgöl'dür. Bu göller aralarında 100 m. yükselti farkı bulunan iki plato üzerindedir. Ortalama 780 m. yükseklikte olan platodaki göllerin en büyüğü Büyükgöl'dür. Alanı 24895 m², en derin yeri ise 15m.'dir. Büyükgöl'ün güneydoğusundaki Deringöl (15063 m²), 20 m. uzunluğundaki akan bölümü ile Büyükgöl'e bağlıdır.  Büyükgöl'ün kuzeyinde ise Seringöl (1758 m²) bulunmaktadır. Diğer platodan 100 m. yükseklikteki platonun en geniş gölü Nazlıgöl'dür (15780 m²). Dibinden sızdırdığı bol miktardaki su, gölün kuzeydoğusunda yüzeye çıkarak bir şelalenin oluşmasına sebep olduğundan &quot;Şelale Gölü&quot; adı da verilir.  Aynı platoda Sazlıgöl (5950 m²), İncegöl (1036 m²) ve Küçükgöl (2170 m²)  bulunur. Kuzeyden güneye doğru alçalma gösteren bölgede, en yüksek yer 1488 m. ile Eğrikiriş Tepesi, en alçak yer ise 465 m. ile Kirazçatı’dır. Yedigöller Milli Parkı bilimsel inceleme ve araştırmalar için de kuvvetli bir altyapıya sahiptir. Başta zambak, sıklamen, çiğdem ve orkide olmak üzere toplam 236 adet bitki türünü içeren Milli Park, yurdumuzun en güzel karışık doğal ormanlarına da sahiptir. Başlıca ağaç türleri olan  kayın, gürgen, meşe, kızılağaç, akçaağaç, karaağaç, titrek kavak, sarı ve kara çam, köknar, fındık, yapraklı üvez, keçi söğüdü, yabani kiraz, porsuk, ıhlamur ve dişbudak  ağaçları görülebilmektedir. Yedigöller Bölgesi, barındırdığı ölü ağaçlar ile biyolojik çeşitliliğin devamını sağlamaktadır."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:text="YEDİGÖLLER MİİLİ PARKI"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintStart_toStartOf="@+id/imageView5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="59dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="247dp"
+        android:onClick="geri"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+</androidx.constraintlayout.widget.ConstraintLayout>

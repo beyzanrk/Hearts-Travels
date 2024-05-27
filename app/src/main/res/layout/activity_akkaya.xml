@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".akkayaActivity">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="336dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/akkaya" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="44dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="295dp"
+        android:onClick="geri"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="AKKAYA TRAVERTENLERİ"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="370dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:text="Bolu'nun 10 kilometre güneybatısında, Mudurnu yolu üzerinde bulunan Akkaya Travertenleri, “Bolu'nun Pamukkalesi” olarak ün yapmış olup, görülmeye değer bir güzelliğe sahiptir.  Bolu ve Batı Karadeniz Bölgesi’ndeki tek örnek olan, doğal yapısını aynen koruyan nadir çevrelerden biri olan Akkaya Travertenleri, doğu–batı doğrultusunda 250 metre uzunlukta bir oluşum ve bu oluşumun 100 metre batısında 50 metre uzunlukta farklı bir oluşum daha bulunmaktadır.  Akkaya Travertenleri yemyeşil doğa ile bütünleşen bir manzara sergiler. Özellikle yaz aylarında traverten havuzları serinlemek amacıyla çok ilgi görmektedir. Ayrıca dinlenmek ve piknik yapmak isteyenler için ideal bir yer olan Akkaya Mevkii'nde özel sektörce işletilen günübirlik turistik tesisler faaliyet göstermektedir."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+</androidx.constraintlayout.widget.ConstraintLayout>

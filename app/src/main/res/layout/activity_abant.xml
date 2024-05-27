@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".abantActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="376dp"
+        android:layout_height="340dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abant" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="42dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="306dp"
+        android:onClick="geri"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABANT GÖLÜ MİLLİ PARKI"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="398dp"
+        android:layout_height="309dp"
+        android:layout_marginStart="16dp"
+        android:text="Abant Gölü yeraltında meydana gelen tektonik çöküntüler sonucunda büyük taş bloklarının vadiyi doldurmasıyla oluşmuştur. Deniz seviyesinden yüksekliği 1328 m. yüzey genişliği 1.25 km² olup maksimum 18m. derinliktedir. Tektonik kökenli göl Kuzey Anadolu fay hattında bulunmaktadır. Abant Gölü’nü dağlardan gelen kar suları ve bir iki küçük dere beslemektedir. Gölden dışarı taşan temiz ve doğal su Dirgene Çayı’dır (Atıcı ve Obalı 2002). Abant Gölü çevresinde sıralanan dağların zirveleri tabiat parkının sınırlarını oluşturmaktadır. Tabiat parkının en yüksek noktası 1794m. ile Erenler Tepesi iken en düşük noktası 1328m. ile Abant Gölü seviyesidir (OBM,1991). Abant gölü kış aylarındaki hızlı hava soğumaları nedeni ile kıyıdan başlayarak tamamen donmaktadır[2]  Temel Özellikler Abant Gölü, Batı Karadeniz bölümü dağlarının ikinci sırasını oluşturan, Abant ve Keremali dağları üzerinde yer alır. Abant Deresinin, vadisinde oluşan bir heyelan gölü oluşturmuştur. Göl çevresinde 1400-1700 metrelere varan tepeler yer alır. Gölden çıkan fazla sular Abant Deresi ile Bolu Çayına dökülür. Göl birkaç kaynak suyu, iki-üç kısmen devamlı olan akarsu ve özellikle de kar ve yağmur suları ile beslenmektedir. Göl ve çevredeki 1196 hektarlık alan Tabiat Parkı olarak işletilmektedir. Göl derinliklerinin görülebileceği kadar durudur.  Doğal Yaşam Çevrede şu hayvanlar yaşamaktadır: Yabandomuzu, tavşan, karaca, ayı, tilki, yaban ördeği, keklik ve yaban güvercini. Gölden çıkan ve Abant Alabalığı olarak bilinen endemik balık, literatüre Salmo trutta abanticus olarak girmiştir.  Göl çevresinde yayla olarak kullanılan açık alanlar da olsa, gür ormanlar da yer alır. Köknar, çam, meşe, kayın, gürgen, kestane, yabani meyve ağaçları zengin bir bitki örtüsü oluşturur. Göl kıyılarda sarı ve beyaz nilüferler su yüzeyini kaplarlar."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+</androidx.constraintlayout.widget.ConstraintLayout>

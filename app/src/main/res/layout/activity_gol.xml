@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".golActivity">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="394dp"
+        android:layout_height="506dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/gol" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="37dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="237dp"
+        android:onClick="geri"
+        app:layout_constraintBottom_toTopOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="17dp"
+        android:text="GÖLCÜK TABİAT PARKI"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="395dp"
+        android:layout_height="0dp"
+        android:text="Merkez ilçenin güney batısında rakımlı alan ve çevresini kapsayan Gölcük Tabiat Parkı, yeni yetiştirilmiş ağaçlarla kaplı olup, bir krater gölü olan Gölcük Gölü’nü içinde bulundurmaktadır. Şehir merkezine uzaklıkta olup, ( göl yüzeyi) bir alanı kapsamaktadır.  Asfalt yolla ulaşım imkânı bulunur. Gölün etrafı 150-300 m’yi bulan volkanik küllü tepelerle çevrilidir. Daireyi andıran gölün çapı derinliği yer yer 32 m’yi bulur. Göl kıyısında piknik için tüm alt yapı tesisleri mevcuttur. Bir restaurant binası ve bir de kır gazinosu bulunmaktadır. 05.07.1991 tarihinde, Gölcük Gölü ve çevresi Tabiat Parkı olarak ilan edilmiştir. 23.11.1994 tarihinde revizyon çalışması yapılmış olup; (aynı sınır 19.11.2008 de Bakanlar Kurulu Kararı ile tekrar ilan edilmiştir.)  Nemrut kalderası ile birlikte ülkemizin iki kalderasından (patlama krateri) biridir. Batı Anadolunun tek kalderasıdır. Bu nedenle korunması gereken bir yerdir.  Gölcük Tabiat Parkı’nda kızılçam, karaçam, meşe, sedir, akasya, akçakesme ve diğer maki türü bitkiler ile tavşan, tilki, sincap, kaplumbağa, yılan ve çeşitli kuş türleri bulunmaktadır.   "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+</androidx.constraintlayout.widget.ConstraintLayout>
